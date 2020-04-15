@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarcodeDetector", "BarcodeDetector\BarcodeDetector.csproj", "{7D4687FF-C689-4450-B956-44EF77D3CCAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestHarness", "TestHarness\TestHarness.csproj", "{736B9DFF-1F90-455A-B899-0617B1A22BCF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D4687FF-C689-4450-B956-44EF77D3CCAB} = {7D4687FF-C689-4450-B956-44EF77D3CCAB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D4687FF-C689-4450-B956-44EF77D3CCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4687FF-C689-4450-B956-44EF77D3CCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4687FF-C689-4450-B956-44EF77D3CCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4687FF-C689-4450-B956-44EF77D3CCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736B9DFF-1F90-455A-B899-0617B1A22BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736B9DFF-1F90-455A-B899-0617B1A22BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736B9DFF-1F90-455A-B899-0617B1A22BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736B9DFF-1F90-455A-B899-0617B1A22BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DB27A69-B891-41C3-91A9-0A9D02D9256A}
+	EndGlobalSection
+EndGlobal

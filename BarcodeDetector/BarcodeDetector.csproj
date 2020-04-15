@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+ <PropertyGroup>
+  <TargetFramework>netstandard2.1</TargetFramework>
+  <RootNamespace>InitiatorProject.Barcode</RootNamespace>
+  <AssemblyName>InitiatorProject.Barcode</AssemblyName>
+  <Nullable>enable</Nullable>
+ </PropertyGroup>
+
+ <ItemGroup>
+  <Compile Remove="TestHarness\**" />
+  <EmbeddedResource Remove="TestHarness\**" />
+  <None Remove="TestHarness\**" />
+ </ItemGroup>
+
+ <ItemGroup>
+  <PackageReference Include="Emgu.CV.runtime.windows" Version="4.2.0.3636" />
+  <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.6">
+   <PrivateAssets>all</PrivateAssets>
+   <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+  </PackageReference>
+ </ItemGroup>
+</Project>
